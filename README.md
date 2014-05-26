@@ -29,3 +29,7 @@ Original work: [bandito](https://github.com/bandito)
 `lein midje :autotest` will run all the tests indefinitely. It sets up a
 watcher on the code files. If they change, only the relevant tests will be
 run again.
+
+## License
+
+Distributed under the Eclipse Public License, the same as Clojure.
