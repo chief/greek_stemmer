@@ -4,6 +4,21 @@ A simple Greek stemmer algorithm.
 
 This algorithm is based on this [paper](http://people.dsv.su.se/~hercules/papers/Ntais_greek_stemmer_thesis_final.pdf) from George Ntais.
 
+## Install (lein)
+
+```clojure
+[greek_stemmer "0.0.1"]
+```
+
+## Usage
+
+```clojure
+  (use 'greek_stemmer.core)
+
+  (greek_stemmer.core/stem "ΚΙΘΑΡΙΣΤΑΣ")
+  ;; "ΚΙΘΑΡΙΣΤ"
+```
+
 ## References
 
 * [Development of a Stemmer for the Greek Language](http://people.dsv.su.se/~hercules/papers/Ntais_greek_stemmer_thesis_final.pdf)
