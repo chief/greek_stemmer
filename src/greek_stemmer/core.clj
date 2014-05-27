@@ -2,7 +2,8 @@
 (require '[clojure.string :as str])
 (require '[clj-yaml.core  :as yaml])
 
-(def config (yaml/parse-string (slurp "config/stemmer.yml")))
+(def config (yaml/parse-string (slurp
+  (.getPath (clojure.java.io/resource "stemmer.yml")))))
 (def protected-words (:protected_words config))
 (def exceptions (clojure.walk/stringify-keys (:exceptions config)))
 (def steps [
