@@ -1,7 +1,10 @@
-pom.xml
-*jar
+lib/*
+multi-lib/*
+coref
+classes/*
+.lein-failures
 .lein-deps-sum
+target/*
+pom.xml*
+doc*
 .lein*
-target/
-docs/
-.nrepl-port
