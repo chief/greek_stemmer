@@ -7,7 +7,7 @@ This algorithm is based on this [paper](http://people.dsv.su.se/~hercules/papers
 ## Install (lein)
 
 ```clojure
-[greek_stemmer "0.0.2"]
+[greek_stemmer "0.0.3"]
 ```
 
 ## Usage

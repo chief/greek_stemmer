@@ -1,4 +1,4 @@
-(defproject greek_stemmer "0.0.2"
+(defproject greek_stemmer "0.0.3"
   :description "A simple Greek stemmer algorithm"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
