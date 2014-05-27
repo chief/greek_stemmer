@@ -5,5 +5,7 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
     [clj-yaml "0.4.0"]]
   :url "https://github.com/chief/greek_stemmer"
+  :scm { :name "git"
+         :url  "https://github.com/chief/greek_stemmer" }
   :profiles {:dev {:dependencies [[midje "1.5.0"]]}})
 
